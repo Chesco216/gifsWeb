@@ -8,10 +8,10 @@ export const gifFetch = async( category ) => {
     
     id: img.id,
     title: img.title,
-    url: img.images.downsized_medium
+    url: img.images.downsized_medium.url
 
   }))
 
-  console.log(gifContent)
+  // console.log(gifContent)
   return gifContent
 }
